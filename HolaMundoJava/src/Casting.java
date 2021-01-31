@@ -11,11 +11,24 @@ public class Casting {
         System.out.println(estimatedMonthlyDogs);
 
         //Exactitud
-        System.out.println("");
         int a= 30;
         int b= 12;
 
         System.out.println((double) a/b);
+
+        //----------------------------------Segunda clase------------------------------------
+        System.out.println("");
+        System.out.println("");
+
+        double c= (double) a/b;
+        System.out.println(c);
+
+        char n= '1';
+        int nI= n;
+        System.out.println(nI);
+
+        short nS= (short) n;
+        System.out.println(nS);
 
     }//Fin main
 }//Fin clase
