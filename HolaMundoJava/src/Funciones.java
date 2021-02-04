@@ -8,7 +8,7 @@ public class Funciones {
         System.out.println(sphereVolumen(y));
 
         System.out.println("Pesos a dolares: " + converToDolar(200, "MXN"));
-
+        
     }//Fin main
 
     //--------------------Funciones-----------------------------------------------------------
@@ -24,6 +24,14 @@ public class Funciones {
         return ((4/3) * Math.PI * Math.pow(r, 3));
     }//Fin función SphereVolumen
 
+    /**
+     * Descripción breve de lo que se trata la función: Esta función que especificando su moneda, convierte una cantidad a dolares
+     *
+     * @param quantity Cantidad de dinero
+     * @param currency Tipo de moneda, solo acepta pesos mexicanos o colombianos
+     *
+     * @return quantity Devuelve la cantidad actualizada en dolares
+     * */
     public static double converToDolar(double quantity, String currency){
         System.out.println("");
 
